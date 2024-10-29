@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+.text {
+  font-size: 3rem;
+  display: flex;
+}
+.letter {
+  position: relative;
+  transition: transform 0.1s ease; /* Плавное возвращение */
+  display: inline-block;
+  will-change: transform; /* Оптимизация */
+}
+
+.container {
+  width: 500px;
+  height: 100px;
+  border: 5px solid blue;
+}
